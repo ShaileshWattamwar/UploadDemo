@@ -36,7 +36,7 @@ public class FileController {
             return new ResponseEntity<>(new FileResponse(null, "File upload is not done"), HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
-        return new ResponseEntity<>(new FileResponse(fileName, "File upload Done"), HttpStatus.OK);
+        return new ResponseEntity<>(new FileResponse(fileName, "File is uploaded"), HttpStatus.OK);
 
     }
 }
