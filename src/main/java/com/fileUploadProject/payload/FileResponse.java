@@ -8,6 +8,8 @@ public class FileResponse {
     private int fileNo;
     private String fileType;
 
+    private double fileData;
+
     public FileResponse(String fileName, String message) {
         this.fileName = fileName;
         this.message = message;
