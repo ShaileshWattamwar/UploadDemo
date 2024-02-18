@@ -2,11 +2,11 @@ package com.fileUploadProject.payload;
 
 public class FileResponse {
 
-   private String fileName;
-   private String message;
-   private String fileSize;
-
-   private String fileType;
+    private String fileName;
+    private String message;
+    private String fileSize;
+    private int fileNo;
+    private String fileType;
 
     public FileResponse(String fileName, String message) {
         this.fileName = fileName;
