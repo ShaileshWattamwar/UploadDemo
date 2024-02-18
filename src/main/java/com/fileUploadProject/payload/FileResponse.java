@@ -4,6 +4,7 @@ public class FileResponse {
 
    private String fileName;
    private String message;
+   private String fileSize;
 
     public FileResponse(String fileName, String message) {
         this.fileName = fileName;
